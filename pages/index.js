@@ -9,6 +9,7 @@ import LocationPicker from '../components/LocationPicker';
 import SectionCTA from "../components/SectionCTA"
 import Showcase from '../components/Showcase';
 
+
 import { getAllVehicles, getAllColors } from '../lib/api';
 
 export async function getStaticProps() {
@@ -21,18 +22,20 @@ export async function getStaticProps() {
   return {
     props: {
       data,
-      colors
+      //colors
     }
   }
 }
 
-const Homepage = ({data, colors}) => {
+const Homepage = ({data, 
+    colors
+  }) => {
   //console.log({data});
-  return <Layout>
-    <Showcase />
-    <LocationPicker />
-    <CarColorPicker colors={colors}/>
-    <SectionCTA />
-  </Layout>
+  return <Layout>{
+    //<Showcase />
+    //<LocationPicker />
+    //<CarColorPicker colors={colors}/>
+    //<SectionCTA />
+  }</Layout>
 }
 export default Homepage

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Heading from './Heading'; 
 import Image from 'next/image';
 import Swatches from './Swatches';
 
@@ -6,6 +7,9 @@ const CarColorPicker = ({ colors }) => {
     const [activeColor, setActiveColor] = useState(colors[0]);
 
     return <div>
+        <Heading level={2}> 
+        Love is in the air.
+        </Heading>
          <h2>Color picker</h2>
     <div>
         <Image 

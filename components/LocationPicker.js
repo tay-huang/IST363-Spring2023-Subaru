@@ -1,4 +1,6 @@
-import Container from '../pages/Container.js'
+import Container from './Container.js'
+import Heading from './Heading';
+
 
 import styles from './locationpicker.module.scss';
 
@@ -6,7 +8,9 @@ const LocationPicker = () => {
     return <section className={styles.
     locationPicker}>
         <Container>
-        Location picker stuff 
+        <Heading level={2}>
+        Location picker
+        </Heading>
     </Container>
     </section>
 
