@@ -7,6 +7,7 @@ const TrimPicker = ({ trimLevels }) => {
         {trimLevels.map ((trimLevel, index) => {
             const { name, images } = trimLevel;
             const {thumbnail} = images;
+            //sample note goes here
             return <li>
                 <Heading level={3}>{name}</Heading>
                 {thumbnail &&
