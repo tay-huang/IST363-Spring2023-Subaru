@@ -25,7 +25,7 @@ const Showcase = ({
         }
         <Container>
         <div className={styles.showcase_text}> 
-        <Heading level={3}>{headline}</Heading>
+        <Heading level={3}>{subheadline}</Heading>
         {headline && 
             <Heading level={1}>{headline}</Heading>
             }

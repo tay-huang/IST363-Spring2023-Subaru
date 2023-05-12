@@ -63,3 +63,13 @@
 
 }
 
+@mixin colors() {
+	$colors: black, white;
+
+	@each $color in $color {
+		&.color-#{$color} {
+			color: $color;
+		}
+	}
+}
+

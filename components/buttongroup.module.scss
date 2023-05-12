@@ -1,0 +1,9 @@
+@use '../sass/abstracts/mixins';
+
+.buttongroup {
+    display: flex;
+    flex-direction: column;
+    @include mixins.breakpoint(tablet) {
+        flex-direction: row;
+    }
+}

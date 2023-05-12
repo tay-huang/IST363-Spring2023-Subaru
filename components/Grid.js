@@ -52,10 +52,12 @@ const Grid = ({ items, activeItem }) => {
                     className={styles.gridItemImage}
                 />
                 </Link>
-                <Heading level={3}>{title}</Heading>
+                <Heading level={3}>
                     <Link href={`/vehicles/${slug}`}>
                     {title}
-                    </Link><Paragraph>Starting at<strong>{formattedPrice}</strong></Paragraph>
+                    </Link>
+                    </Heading>
+                    <Paragraph>Starting at <strong>{formattedPrice}</strong></Paragraph>
             </motion.article>
         })}
     </motion.section>

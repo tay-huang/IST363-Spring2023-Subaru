@@ -22,7 +22,7 @@ const Tabs = ({
         onClick={() => {
             changeHandler(item);
         }}
-    >(item)</li>
+    >{item}</li>
 })}
     </ul>
 }
