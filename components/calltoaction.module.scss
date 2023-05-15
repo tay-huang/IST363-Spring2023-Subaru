@@ -4,4 +4,9 @@
     background-color: black;
     color: white;
     text-align: center;
+    &_flexbox {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
 }

@@ -3,8 +3,10 @@
 .buttongroup {
     display: flex;
     gap: 1rem;
+    align-items: stretch;
     flex-direction: column;
     @include mixins.breakpoint(tablet) {
         flex-direction: row;
+        justify-content: center;
     }
 }

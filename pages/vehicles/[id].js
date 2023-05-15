@@ -52,5 +52,6 @@ export async function getStaticPaths() {
         <TrimPicker trimLevels={trimLevels} />
         <ColorPicker vehicleColors={vehicleColors} />
        </Container>
+       <CallToAction vehicleName={title} />
     </Layout> 
   }
