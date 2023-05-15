@@ -16,8 +16,8 @@ const CallToAction = () => {
                 Start customizing your Crosstrek today, or contact your local Subaru dealer to experience one in person.
             </Paragraph>
             <ButtonGroup>
-                <Button label= "Build and Price" />
-                <Button label="Contact Dealer" />
+                <Button label= "Build and Price" type="primary" />
+                <Button label="Contact Dealer" type="secondary" />
             </ButtonGroup>
         </Container>
         </section>

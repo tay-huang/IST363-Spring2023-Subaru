@@ -64,12 +64,11 @@
 }
 
 @mixin colors() {
-	$colors: black, white;
+    $colors: black, white;
 
-	@each $color in $color {
-		&.color-#{$color} {
-			color: $color;
-		}
-	}
+    @each $color in $colors {
+        &.color-#{$color} {
+            color: $color;
+        }
+    }
 }
-
