@@ -2,7 +2,7 @@
 import Button from './Button';
 import ButtonGroup from './ButtonGroup';
 import Container from './Container';
-import Heading from './heading';
+import Heading from './Heading';
 
 //styles
 import styles from './calltoaction.module.scss';
